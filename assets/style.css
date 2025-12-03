@@ -1,0 +1,35 @@
+.banner{
+    background-image: url("./assets/img.praia.jpg");
+    height: 700px;
+    width: 1800px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly   ;
+}
+
+.menu.frase{
+    margin-left: 600px;
+}
+.grupo-1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-left: 40px;
+}
+.logo-menu{
+    height: 32px;
+    width: 167px;
+}
+.text{
+    text-align: center;
+    
+}
+.banner{
+   display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center;
+    color: aliceblue;
+    font-size: 50px;
+}
