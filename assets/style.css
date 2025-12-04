@@ -1,35 +1,83 @@
-.banner{
-    background-image: url("./assets/img.praia.jpg");
-    height: 700px;
-    width: 1800px;
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: #1a1a1a; Mudar a cor do fundo */
 }
 
-.menu{
+
+
+nav{
     display: flex;
-    justify-content: space-evenly   ;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
 }
 
-.menu.frase{
-    margin-left: 600px;
+ul a{
+    list-style: none;
+    text-decoration: none;
 }
-.grupo-1{
+
+
+    .banner{
+        background-image:url("./assets/Section.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 702.1300048828125px;
+        width: 1800px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+    }
+
+.texto-banner{
+    font-size: 69.73px;
+    font-weight: bolder;
+    color: #ffffff;
+    font-family: sans-serif
+}
+
+.caixa-texto-banner{
+    width: 3000px;
+    padding: 100px; /*Espaçamento interno*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.texto{
+    font-size: 14.65pxpx;
+    color: #ffffff;
+    font-family: sans-serif
+}
+
+.barra-pesquisa{
+    font-size: 14.77px;
+    font-weight: lighter;
+    color: #757575;
+}
+
+.login{
+    font-size: 14.3px;
+    font-weight: lighter;
     display: flex;
     justify-content: center;
-    gap: 40px;
-    padding-left: 40px;
-}
-.logo-menu{
-    height: 32px;
-    width: 167px;
-}
-.text{
-    text-align: center;
-    
-}
-.banner{
-   display: flex;
-    justify-content: center; /* centraliza horizontalmente */
     align-items: center;
-    color: aliceblue;
-    font-size: 50px;
+
 }
+
+.texto-login{
+    width: 83.31px;
+    height: 44px;
+    border-radius: 30px;
+    background-color: #EB662B;
+    color: #ffffff;
+    border: none;
+    }
