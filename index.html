@@ -1,120 +1,203 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Travel</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body>
     <header>
-             <nav>
-                <div><img src="./assets/Link → logo-1.svg.png" alt=""></div>
+        <nav class="menu">
+            <div class="caixa-logo">
+                <img src="./assets/Link → logo-1.svg.png" alt="logo do site " id="logo">
+                <div class="search">
+                    <p>Search destinations or activities</p>
+                </div>
+            </div>
+
+            <div class="cabecalho">
                 <ul>
-                    <li>
-                        <a href="#">Search destinations or activities</a>
-                    </li>
-                    <li>
-                        <a href="#">Destinations</a>
-                    </li>
-                    <li>
-                        <a href="#"> Activies</a>
-                    </li>
-                    <li>
-                        <a href="#"> USD</a>
-                    </li>
-                    <li>
-                        <a href="#">Sign up</a>
-                    </li>
-            
+                    <li><a href="">Destinations</a></li>
+                    <li><a href="">Activities</a></li>
+                    <li><a href="">USD</a></li>
+                    <li><a href="">Sign up</a></li>
+
+
                 </ul>
                 <div>
-                    <button class="login-btn">Log in</button>
+                    <li><a href="" class="login">Login</a></li>
                 </div>
-             </nav>
+
+            </div>
+        </nav>
     </header>
-  </div>
     <main>
-        <section class="section-center">
 
+        <section class="section-1">
             <div class="banner">
-                <div class="caixa-texto-banner">
-                    <p class="texto-banner">Your world of joy</p>
-                    <p class="texto">From local escapes to far-flung adventures, find what makes you happy anytime,
-                        anywhere</p>
-                    <div class="bloco-banner">
-
+                <div class="caixa-banner">
+                    <div class="caixa-texto-banner">
+                        <p class="texto-banner">Your world of joy</p>
+                        <p class="texto-banner2">From local escapes to far-flung adventures, find what makes you happy
+                            anytime, anywhere</p>
                     </div>
-                    <!-- Search box -->
-            <div class="search-box">
-                <div class="field">
-                    <label>Where</label>
-                    <input type="text" placeholder="Search destinations">
                 </div>
-
-                <div class="field">
-                    <label>When</label>
-                    <input type="text" placeholder="February 05 – March 14">
-                </div>
-
-                <div class="field">
-                    <label>Tour Type</label>
-                    <select>
-                        <option>All tour</option>
-                    </select>
-                </div>
-
-                <button class="search-btn">Search</button>
-                </div>
-
-  <div class="section">
- 
-        </div>
-
-            </div>
-            </div>
-            <div class="cards">
-            </div>
+                <div class="quadrado-banner">
+                    <div class="caixa-formas">
+                        <div class="quadrado"></div>
+                        <div class="formas ">
+                            <p><strong>Where</strong></p>
+                            <p class="text-search">Search destinations</p>
+                        </div>
+                        <div class="quadrado"></div>
+                        <div class="formas ">
+                            <p><strong>When</strong></p>
+                            <p class="text-search">February 05 ~ March 14</p>
+                        </div>
+                        <div class="quadrado"></div>
+                        <div class="formas">
+                            <p><strong>Tour Type</strong></p>
+                            <p class="text-search">All tour</p>
+                        </div>
                     </div>
-                </section>
-                           <!-- WHY CHOOSE TOURZ -->
- <section class="why-choose">
-    <h2>Why choose Tourz</h2>
+                    <div class="caixa-btn-search">
+                        <button class="btn-search">
+                            Search
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <div class="features">
-        <div class="feature-card">
-            <img src="assets/ticket.svg fill.png" alt="icon">
-            <h3>Ultimate flexibility</h3>
-            <p>You're in control, with free cancellation and payment options to satisfy any plan or budget.</p>
-        </div>
+        <section class="section-qualidades">
+            <div class="qualidades">
+                <div class="caixa-titulo">
+                <p class="texto-titulo1">
+                    Why choose Tourz
+                </p>
+            </div>
+            <div class="conteiner-icones">
+                <div class="caixa-icone">
+                    <i class="bi bi-ticket-perforated"></i>
+                    <p class="strong">
+                        Ultimate flexibility
+                    </p>
+                    <p class="texto-icone">You're in control, with free
+                        cancellation and payment options to
+                        satisfy any plan or budget.
+                    </p>
+                </div>
+                <div class="caixa-icone">
+                    <i class="bi bi-airplane-engines"></i>
+                    <p class="strong">
+                        Memorable experiences
+                    </p>
+                    <p class="texto-icone">Browse and book tours and activities
+                        so incredible, you'll want to tell your
+                        friends.
+                </div>
+                <div class="caixa-icone">
+                    <i class="bi bi-gem"></i>
+                    <p class="strong">
+                        Quality at our core
+                    </p>
+                    <p class="texto-icone">High-quality standards. Millions of
+                        reviews. A tourz company.
+                </div>
+                <div class="caixa-icone">
+                    <i class="bi bi-award"></i>
+                    <p class="strong">
+                        Award-winning support
+                    </p>
+                    <p class="texto-icone">New price? New plan? No problem.
+                        We're here to help, 24/7.
+                </div>
+            </div>
+            </div>
+        </section>
 
-        <div class="feature-card">
-            <img src="assets/medal.svg fill.png" alt="icon">
-            <h3>Memorable experiences</h3>
-            <p>Browse and book tours and activities so incredible, you'll want to tell your friends.</p>
-        </div>
+        <section class="section-carrosel">
+            <div class="carrosel">
+                <div class="caixa-box-titulo">
+                    <p class="box-titulo">Trending destinations</p>
+                    <p class="box-descricao">see all</p>
+                </div>
+                <div class="box-turismo">
+                    <div class="paris">
+                        <img src=".//assets/paris.png" alt="">
+                        <div class="caixa-texto-turismo">
+                            <p class="texto-pais">Paris</p>
+                            <p class="texto-tours">100+ Tours</p>
+                        </div>
+                    </div>
+                    <div class="singapura">
+                        <img src="./assets/singapura.png" alt="">
+                        <div class="caixa-texto-turismo">
+                            <p class="texto-pais">Singapura</p>
+                            <p class="texto-tours">300+ Tours</p>
+                        </div>
+                    </div>
+                    <div class="roma">
+                        <img src="./assets/roma.png" alt="">
+                        <div class="caixa-texto-turismo">
+                            <p class="texto-pais">Roma</p>
+                            <p class="texto-tours">400+ Tours</p>
+                        </div>
+                    </div>
+                    <div class="bangkok">
+                        <img src="./assets/banglok.png" alt="">
+                        <div class="caixa-texto-turismo">
+                            <p class="texto-pais">Bangkok</p>
+                            <p class="texto-tours">100+ Tours</p>
+                        </div>
+                    </div>
+                    <div class="bali">
+                        <img src="./assets/bali.png" alt="">
+                        <div class="caixa-texto-turismo">
+                            <p class="texto-pais">Bali</p>
+                            <p class="texto-tours">600+ Tours</p>
+                        </div>
+                    </div>
+                    <div class="phuket">
+                        <img src="./assets/phuket.png" alt="">
+                        <div class="caixa-texto-turismo">
+                            <p class="texto-pais">phuket</p>
+                            <p class="texto-tours">200+ Tours</p>
+                        </div>
+                    </div>
+                    <div class="tokyo">
+                        <img src="./assets/tokyo.png" alt="">
+                        <div class="caixa-texto-turismo">
+                            <p class="texto-pais">tokyo</p>
+                            <p class="texto-tours">700+ Tours</p>
+                        </div>
+                    </div>
+                    <div class="cappadocia">
+                        <img src="./assets/capadocia.png" alt="">
+                        <div class="caixa-texto-turismo">
+                            <p class="texto-pais">cappadocia</p>
+                            <p class="texto-tours">900+ Tours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <div class="feature-card">
-            <img src="assets/diamond.svg fill.png" alt="icon">
-            <h3>Quality at our core</h3>
-            <p>High-quality standards. Millions of reviews. A Tourz company.</p>
-        </div>
-
-        <div class="feature-card">
-            <img src="assets/hot-air-balloon.svg fill.png" alt="icon">
-            <h3>Award-winning support</h3>
-            <p>New price? New plan? No problem. We're here to help, 24/7.</p>
- 
-        </div>
-              </section>
-              <section class="trending-destinations">
-                <h2>Trending destinations </h2> 
-            </section>
-        
-
-    </main><footer>
+        <section class="Tours-polular">
+            
+        </section>
+    </main>
+    <footer>
 
     </footer>
 </body>
