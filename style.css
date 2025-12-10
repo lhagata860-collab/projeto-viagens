@@ -329,33 +329,186 @@ section {
     flex-direction: row;
     justify-content: space-around;
 }
-.banner-2{
-    background-image: url("./assets/img/oferta.png");
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 702.13px;
+.section-oferta {
+    width: 1530px;
     margin: auto;
+}
+
+.banner-oferta {
+    background-image: url("./assets/img/banner-2.png");
+    background-repeat: no-repeat;
+    width: 1530px;
+    height: 606.13px;
+    border-radius: 12px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 60px;
+}
+
+.caixa-texto-oferta {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 10px;
+}
+
+.color {
+    color: var(--laranja);
+}
+
+.texto-oferta {
+    width: 366.14px;
+    height: 156px;
+    color: #05073C;
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: 200px;
+}
+
+.descricao-oferta {
+    width: 315.22px;
+    height: 28.13px;
+    color: #05073C;
+    font-size: 14.77px;
+    font-weight: 400;
+    margin-right: 150px;
+}
+
+.btn-oferta {
+    width: 167.86px;
+    height: 62px;
+    background-color: #EB662B;
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: start;
+    padding: 20px;
+}
+
+.popular {
+    width: 1320px;
+    margin: auto;
+    
+}
+
+.caixa-titulo-popular {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
-  .caixa-btn-boock-now{
-    background-color: #EB662B;
-    height: 40px;
-    width: 136.95px;
-    border-radius: 10px;
 
-    display: flex;
-  }
-  .caixa-titulo-popular {
-    display: flex;
-    justify-content: space-between;
-}
-
-.titulo-popular {
-    font-size: 29.41px;
+.texto-titulo-popular {
+    font-size: 30px;
     font-weight: 700;
 }
 
-  
+.texto-descricao-popular {
+    font-size: 14.3px;
+    font-weight: 400;
+}
+
+.caixa-activities {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color:;
+}
+
+
+.caixa-food {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.viagem {
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.viagem:hover {
+    transform: scale(1.05);
+}
+
+.viagem p {
+    display: flex;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.cruises {
+    width: 300px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-image: url(./assets/img/div.featureCard__image.png);
+}
+
+.beach-tours {
+    width: 410px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-image: url(./assets/img/div.featureCard__image\ \(2\).png);
+}
+
+.city-tours {
+    width: 520px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-image: url(./assets/img/div.featureCard__image\ \(3\).png);
+}
+
+.museum-tour {
+    width: 300px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-image: url(./assets/img/div.featureCard__image\ \(1\).png);
+}
+
+.food {
+    width: 190px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-image: url(./assets/img/div.featureCard__image\ \(4\).png);
+}
+
+.hiking {
+    width: 300px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-image: url(./assets/img/div.featureCard__image\ \(5\).png)
+
+}
+.trending {
+    width: 1530px;
+    height: 767.31px;
+    margin: auto;
+    background-color: #F5F5F5;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
